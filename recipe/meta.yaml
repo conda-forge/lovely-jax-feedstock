@@ -1,5 +1,5 @@
 {% set name = "lovely-jax" %}
-{% set version = "0.0.1" %}
+{% set version = "0.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lovely-jax-{{ version }}.tar.gz
-  sha256: 605ab1c0b15bb97615d64444bda2f8f076b03157831f84c50499a916b6c9469b
+  sha256: 50d4ec9d067faa82fcb58b5cae70d98b66f45f8a6df7bbfa98d4a6f4a410b65c
 
 build:
   noarch: python
@@ -38,7 +38,7 @@ about:
   summary: ❤️ Lovely JAX
   license: MIT
   license_file: LICENSE
-  description: |
+  description: |4
 
     PyPI: [https://pypi.org/project/lovely-jax/](https://pypi.org/project/lovely-jax/)
 
