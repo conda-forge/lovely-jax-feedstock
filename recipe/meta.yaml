@@ -1,5 +1,5 @@
 {% set name = "lovely-jax" %}
-{% set version = "0.0.1" %}
+{% set version = "0.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lovely-jax-{{ version }}.tar.gz
-  sha256: 605ab1c0b15bb97615d64444bda2f8f076b03157831f84c50499a916b6c9469b
+  sha256: 50d4ec9d067faa82fcb58b5cae70d98b66f45f8a6df7bbfa98d4a6f4a410b65c
 
 build:
   noarch: python
   number: 0
+  # The script can have multiple lines. Hence, keep it at the end.
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -20,10 +21,8 @@ requirements:
     - pip
   run:
     - python >=3.7
-    - fastcore
     - jax
-    # missing dependency
-    - matplotlib-base
+    - lovely-numpy >=0.2.8
 
 test:
   imports:
@@ -35,7 +34,7 @@ test:
 
 about:
   home: https://github.com/xl0/lovely-jax
-  summary: ❤️ Lovely JAX
+  summary: 💘 Lovely JAX
   license: MIT
   license_file: LICENSE
   description: |
@@ -48,3 +47,4 @@ about:
 extra:
   recipe-maintainers:
     - sugatoray
+    - xl0
