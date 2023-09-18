@@ -1,13 +1,13 @@
-About lovely-jax
-================
+About lovely-jax-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lovely-jax-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/xl0/lovely-jax
 
 Package license: MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lovely-jax-feedstock/blob/main/LICENSE.txt)
-
-Summary: ❤️ Lovely JAX
+Summary: 💘 Lovely JAX
 
 Development: https://github.com/xl0/lovely-jax
 
@@ -152,7 +152,5 @@ Feedstock Maintainers
 =====================
 
 * [@sugatoray](https://github.com/sugatoray/)
-
-
-<!-- dummy commit to enable rerendering -->
+* [@xl0](https://github.com/xl0/)
 
